@@ -39,7 +39,7 @@ Stage recibe **21** filas; el DW queda con **17** clientes y **4** filas van a `
 
 Las anomalías sembradas son: 2 IDs repetidos (`ALFKI`, `ANATR`), 3 contactos vacíos, 2 IDs con formato inválido (`CONSH1`, `fissa`) y 2 países mal escritos (`Alemania`, `U.K.`). `DQ_02` aprueba porque 3 de 21 (14.29%) queda por debajo del 15% tolerado; las demás fallan a propósito para que se vea la diferencia entre ambos estados.
 
-**Evidencia de ejecución:** _(agrega aquí tu captura de SSMS con el resultado de `04_reglas_calidad.sql`, guardada en `docs/evidencias/resultado_reglas_dq.png`)_
+**Evidencia de ejecución:** _![Resultado de las reglas de calidad](docs/evidencias/resultado_reglas_dq.png)_
 
 ## Estructura
 
