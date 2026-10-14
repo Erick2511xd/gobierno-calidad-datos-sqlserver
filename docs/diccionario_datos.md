@@ -29,7 +29,7 @@
 | `Cliente_Telefono` | `Phone` | `Phone` | Copia. |
 | `Cliente_SKey`, `Fecha_Carga` | — | — | Generadas en el DW (`IDENTITY` y `SYSDATETIME()`). |
 
-**Columnas del origen que NO se cargan:** `ContactTitle`, `Address`, `Region`, `PostalCode`, `Fax`. Motivo: fuera del alcance de este mini-proyecto (no se usan en ninguna regla de calidad).
+**Columnas del origen que NO se cargan:** `ContactTitle`, `Address`, `Region`, `PostalCode`, `Fax`. Motivo: fuera del alcance de este proyecto (no se usan en ninguna regla de calidad).
 
 ## 3. Gobierno: dueños, CDE y calidad
 
