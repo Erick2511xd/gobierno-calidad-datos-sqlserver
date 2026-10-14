@@ -12,6 +12,6 @@ Marco: **DAMA-DMBOK2, capítulo 13**. Las reglas se ejecutan con `sql/04_reglas_
 
 **Estados:** `APROBADO` (error ≤ umbral), `FALLO` (error > umbral), `SIN_DATOS` (la tabla está vacía; evita aprobar una tabla sin filas).
 
-**Qué pasa cuando una regla falla:** en este mini-proyecto la carga del DW ya aplica las correcciones (rechazo de IDs inválidos y duplicados, estandarización de país), y las reglas miden la calidad **de lo que llegó a Stage**. Así el resultado muestra cuánta suciedad traía la fuente.
+**Qué pasa cuando una regla falla:** en este proyecto la carga del DW ya aplica las correcciones (rechazo de IDs inválidos y duplicados, estandarización de país), y las reglas miden la calidad **de lo que llegó a Stage**. Así el resultado muestra cuánta suciedad traía la fuente.
 
 **Limitación conocida:** las reglas se ejecutan a mano, no están automatizadas con un job.
