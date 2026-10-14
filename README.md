@@ -1,4 +1,4 @@
-# Proyecto de Gobierno y Calidad de Datos: dimensión Cliente
+#Proyecto de Gobierno y Calidad de Datos: dimensión Cliente
 
 Un ejemplo pequeño y completo de **gobierno de datos** en SQL Server: diccionario de datos, linaje, dueños y custodios, y 5 reglas de calidad que se ejecutan y dejan su resultado en una tabla. Alineado a **DAMA-DMBOK2** (cap. 12 Metadatos y cap. 13 Calidad de Datos).
 
